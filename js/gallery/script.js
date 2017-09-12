@@ -54,7 +54,8 @@ $(function() {
   }
   var arrayOfImage = [];
   for (i = 0; i < numberOfImage; i++) {
-    arrayOfImage.push('../homePage/imgs/' + (i + 1) + '.jpg');
+    // arrayOfImage.push('../homePage/imgs/iceland/' + (i + 1) + '.jpg');
+    arrayOfImage.push('../homePage/imgs/norway/' + (i + 1) + '.jpg');
   }
 
   preload(arrayOfImage);
@@ -63,14 +64,16 @@ $(function() {
 	$(".thumbnail").on("click", function() {
 		if (updating == false) {
 			updating = true;
-			$("#main-container").css('background-image', 'url(../homePage/imgs/' + $(this).attr('order') + '.jpg)');
+			// $("#main-container").css('background-image', 'url(../homePage/imgs/iceland/' + $(this).attr('order') + '.jpg)');
+      $("#main-container").css('background-image', 'url(../homePage/imgs/norway/' + $(this).attr('order') + '.jpg)');
 			setTimeout(function(){ updating = false; }, 550);
 		}
 	});
 //change to nailthumb plugin:
 	var lis = $("li");
 	for (i = 0; i < numberOfImage; i++) {
-    $(lis[i]).css('background-image', 'url(../homePage/imgs/thumbnails/' + (i + 1) + '.jpg)');
+    // $(lis[i]).css('background-image', 'url(../homePage/imgs/iceland/thumbnails/' + (i + 1) + '.jpg)');
+    $(lis[i]).css('background-image', 'url(../homePage/imgs/norway/thumbnails/' + (i + 1) + '.jpg)');
 	}
 
 	var scrollSpeed = 300;

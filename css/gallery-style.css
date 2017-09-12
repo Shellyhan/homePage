@@ -29,7 +29,8 @@ h1 {
 	bottom: 0em;
 	overflow: hidden;
 	z-index: 0;
-	background-image: url(../imgs/1.jpg);
+	/*background-image: url(../imgs/iceland/1.jpg);*/
+	background-image: url(../imgs/norway/1.jpg);
 	background-size: cover;
 	transition: background 0.3s cubic-bezier(0.25, 0.1, 0, 0.91);
 	background-color: #000000;
