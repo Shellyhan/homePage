@@ -1,0 +1,124 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	letter-spacing: 0.1em;
+}
+
+#nav {
+	width: 100%;
+	height: 3em;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.8);
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.02));
+	z-index: 2;
+}
+
+#nav h1 {
+	color: #FFFFFF;
+}
+
+#main-container {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0em;
+	overflow: hidden;
+	z-index: 0;
+	background-image: url(../imgs/1.jpg);
+	background-size: cover;
+	transition: background 0.3s cubic-bezier(0.25, 0.1, 0, 0.91);
+	background-color: #000000;
+}
+
+.scroll-button {
+	padding: 2.9em 0.3em;
+	cursor: pointer;
+	float: left;
+}
+
+#scroll-left {
+	background-color: rgba(194, 187, 213, 0.5);
+	background: -webkit-linear-gradient(right, rgba(194, 187, 213, 0.5), rgba(194, 187, 213, 0.1));
+}
+
+#scroll-right {
+	background-color: rgba(194, 187, 213, 0.5);
+	background: -webkit-linear-gradient(left, rgba(194, 187, 213, 0.5), rgba(194, 187, 213, 0.1));
+}
+
+#footer, #footer-tooltip {
+	width: 100%;
+	height: 10em;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer {
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.8);
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+#footer-tooltip {
+	z-index: 3;
+}
+
+#mask {
+	width: calc(100% - 8em);
+	height: 7em;
+	overflow: hidden;
+}
+
+#footer ol {
+	width: 100%;
+	height: 50em;
+	text-align: center;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+#footer ol li {
+	width: 12.5em;
+	height: 7em;
+	display: inline-block;
+	margin: 0 4px 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: move;
+}
+
+input[type="text"] {
+	width: 280px;
+	margin-top: 1.5em;
+	padding: .4em 1em;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px;
+}
+
+label {
+	display: inline-block;
+	width: 125px;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.ui-state-highlight p {
+	padding: 1em 0;
+}
+
+.ui-state-highlight span {
+	padding: 0;
+}
+
+#main {
+	width: 500px;
+	margin: 0 auto;
+}
