@@ -80,30 +80,30 @@ px      68    160    252    344    436    528    620    712    */
   /*--
 	portfolio Start 
 --*/
-  #portfolio-work .block .portfolio-manu {
+  #gallery-sec .block .gallery-menu {
     padding-left: 0px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading h2 {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading h2 {
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading p {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading p {
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  #gallery-sec .block .portfolio-contant ul li a .overlay {
     padding-left: 15px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  #gallery-sec .block .portfolio-contant ul li a .overlay h2 {
     padding-top: 30px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  #gallery-sec .block .portfolio-contant ul li a .overlay p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;
@@ -202,21 +202,21 @@ px      68    160    252    */
     width: 100%;
   }
   /*--
-	service Start 
+	project Start 
 --*/
-  #service {
+  #project {
     padding-top: 100px;
   }
-  #service .thumbnail {
+  #project .thumbnail {
     padding-bottom: 70px;
   }
   /*--
-	call-to-action Start 
+	gallery-call Start 
 --*/
-  #call-to-action p {
+  #gallery-call p {
     padding: 0px 0px 40px;
   }
-  #call-to-action .btn {
+  #gallery-call .btn {
     padding: 10px 20px;
     font-size: 15px;
   }
@@ -269,37 +269,37 @@ px      68    160    252    */
   /*--
 	portfolio Start 
 --*/
-  #portfolio-work .block .portfolio-manu {
+  #gallery-sec .block .gallery-menu {
     padding-left: 0px;
     text-align: center;
   }
-  #portfolio-work .block .portfolio-manu ul li {
+  #gallery-sec .block .gallery-menu ul li {
     padding: 0 8px;
   }
-  #portfolio-work .block .portfolio-contant ul li {
+  #gallery-sec .block .portfolio-contant ul li {
     width: 100%;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading h2 {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading h2 {
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading p {
+  #gallery-sec .block .portfolio-contant ul li a .img-heading p {
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  #gallery-sec .block .portfolio-contant ul li a .overlay {
     padding-left: 15px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  #gallery-sec .block .portfolio-contant ul li a .overlay h2 {
     padding-top: 65px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  #gallery-sec .block .portfolio-contant ul li a .overlay p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;
@@ -383,7 +383,7 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
-  footer .footer-manu {
+  footer .footer-menu {
     display: none;
   }
 }

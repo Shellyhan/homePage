@@ -20,6 +20,7 @@ h6 {
 h2 {
   font-size: 30px;
   font-weight: 400;
+  color: #245d28;
 }
 h3 {
   font-size: 28px;
@@ -27,7 +28,7 @@ h3 {
 }
 p {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 25px;
 }
 ul {
   padding: 0;
@@ -58,7 +59,7 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 5px 0 15px 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -75,9 +76,9 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #1b5504;
   padding: 10px 26px;
-  font-size: 15px;
+  font-size: 16px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -89,7 +90,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start 
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/iceland-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -105,7 +106,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
+  background: linear-gradient(to left, #778E75, #2A3728);
   opacity: 0.8;
 }
 #slider .block {
@@ -150,38 +151,55 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
+
+span.ti-container {
+  color: #656565;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  padding: 0 0 10px;
+}
+
 /*--
-	service Start 
+	project Start 
 --*/
-#service {
+#project {
   text-align: center;
   padding: 90px 0;
 }
-#service .service-item {
+#project .project-item {
   padding-bottom: 30px;
+  border-radius: 20px;
 }
-#service .service-item i {
+#project .project-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #245d28;
 }
-#service .service-item h4 {
+#project .project-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
-#service .service-item p {
+#project .project-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
 }
+
+.project-item:hover {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 1em 0 #778E75;
+}
 /*--
-	call-to-action Start 
+	gallery-call Start 
 --*/
-#call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+#gallery-call {
+  background: url("../img/BC-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -189,7 +207,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   color: #fff;
 }
-#call-to-action:before {
+#gallery-call:before {
   content: "";
   position: absolute;
   left: 0;
@@ -198,33 +216,35 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: linear-gradient(to left, #778E75, #2A3728);
   opacity: 0.8;
 }
-#call-to-action h2 {
-  padding-bottom: 20px;
+#gallery-call h2 {
+  padding-bottom: 35px;
   line-height: 33px;
   margin: 0;
   font-size: 30px;
+  color: #fff;
 }
-#call-to-action p {
+#gallery-call p {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-family: 'Volkhov', serif;
+  font-style: italic;
 }
-#call-to-action .btn-call-to-action {
-  padding: 15px 35px;
+#gallery-call .btn-gallery-call {
+  padding: 20px 20px;
   border: none;
   background-color: #fff;
   font-size: 15px;
   color: #333333;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 /*--
 	Feature Start 
 --*/
-#feature {
-  /*background: url("../img/featue-bg.jpg");*/
-  background: url("../img/logo.png");
+#skills {
+  background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -244,106 +264,59 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+  text-align: center;
 }
-#feature h2 {
+#skills h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature p {
-  color: #8d8f92;
-  margin-bottom: 20px;
+#skills h4 {
+  margin-bottom: 8px;
 }
-#feature .btn-view-works {
-  background: #655E7A;
+#skills p {
+  color: #8d8f92;
+  margin-bottom: 25px;
+}
+#skills .btn-view-works {
+  background: #245d28;
   color: #fff;
   padding: 10px 20px;
 }
 /*--
 	content Start 
 --*/
-#testimonial {
+#fun {
   padding: 100px 0;
 }
-#testimonial .block h2 {
+#fun .block h2 {
   line-height: 27px;
   color: #5C5C5C;
   padding-top: 110px;
 }
-#testimonial .block p {
+#fun .block p {
   padding-top: 50px;
   color: #7B7B7B;
 }
-#testimonial .counter-box li {
-  width: 50%;
+#fun .fun-box li {
+  width: 25%;
   float: left;
   text-align: center;
   margin: 30px 0 30px;
+  color: #245d28;
 }
-#testimonial .counter-box li i {
+#fun .fun-box li i {
   font-size: 35px;
 }
-#testimonial .counter-box li h4 {
-  font-size: 30px;
-  font-weight: bold;
+#fun .fun-box li h4 {
+  font-size: 17px;
+  /*font-weight: bold;*/
+  color: #666;
 }
-#testimonial .counter-box li span {
-  color: #555;
+#fun .fun-box li span {
+  color: #888;
 }
-#testimonial .testimonial-carousel {
-  text-align: center;
-  width: 75%;
-  border: 1px solid #DEDEDE;
-  padding: 24px;
-  margin: 0 auto;
-}
-#testimonial .testimonial-carousel img {
-  padding-bottom: 38px;
-}
-#testimonial .testimonial-carousel p {
-  line-height: 28px;
-  font-weight: 300;
-  padding-bottom: 20px;
-}
-#testimonial .testimonial-carousel .user img {
-  padding-bottom: 0px;
-  border-radius: 500px;
-}
-#testimonial .testimonial-carousel .user p {
-  padding-bottom: 0;
-  font-size: 12px;
-  line-height: 20px;
-  color: #353241;
-}
-#testimonial .testimonial-carousel .user p span {
-  display: block;
-  color: #353241;
-  font-weight: 600;
-}
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
-  border: 1px solid #1D1D1D;
-  border-radius: 500px;
-  display: inline-block;
-  height: 10px;
-  margin-right: 15px;
-  width: 10px;
-}
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
-  font-size: 30px;
-  display: inline-block;
-  border: 0px;
-}
-/*--
-	features Start 
---*/
-#clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
-}
+
 /*---------------------------------------------
 					Work Start 
 -----------------------------------------------*/
@@ -351,7 +324,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start 
 --*/
 #global-header {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/BC-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -367,7 +340,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  background: linear-gradient(to left, #778E75, #2A3728);
   opacity: 0.8;
 }
 #global-header .block {
@@ -391,85 +364,24 @@ font header .navbar-default .navbar-nav li a:hover {
   word-spacing: 3px;
 }
 /*--
-	portfolio-work Start 
+	gallery-sec Start 
 --*/
-#portfolio-work {
+#gallery-sec {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 50px 0;
 }
-#portfolio-work .block .portfolio-menu {
-  padding-bottom: 30px;
-  text-align: center;
-}
-#portfolio-work .block .portfolio-menu ul {
-  border: 1px solid #999999;
-  display: inline-block;
-  margin-bottom: 40px;
-}
-#portfolio-work .block .portfolio-menu ul li {
-  display: inline-block;
-  padding: 0px 25px;
-  cursor: pointer;
-  font-size: 15px;
-  line-height: 40px;
-  font-weight: 600;
-  color: #333333;
-  text-transform: capitalize;
-  position: relative;
-}
-#portfolio-work .block .portfolio-menu ul .active {
-  color: #655E7A;
-  position: relative;
-}
-#portfolio-work .block .portfolio-menu ul .active:before {
-  content: "\f0d7";
-  position: absolute;
-  font-family: 'FontAwesome';
-  bottom: -18px;
-  font-size: 30px;
-  width: 20px;
-  left: 0px;
-  right: 0px;
-  top: 23px;
-  margin: 0 auto;
-  color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-#portfolio-work .block .portfolio-menu ul li:hover:before {
-  content: "\f0d7";
-  position: absolute;
-  font-family: 'FontAwesome';
-  bottom: -18px;
-  font-size: 30px;
-  width: 20px;
-  left: 0px;
-  right: 0px;
-  top: 24px;
-  margin: 0 auto;
-  color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-#portfolio-work .block .portfolio-contant ul li {
+
+#gallery-sec .block .portfolio-contant ul li {
   float: left;
   width: 32.22%;
   overflow: hidden;
   margin: 6px;
   position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
+#gallery-sec .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
+#gallery-sec .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0%, -50%);
@@ -477,28 +389,28 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-#portfolio-work .block .portfolio-contant ul li a {
+#gallery-sec .block .portfolio-contant ul li a {
   display: block;
   color: #fff;
 }
-#portfolio-work .block .portfolio-contant ul li a h2 {
+#gallery-sec .block .portfolio-contant ul li a h2 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+#gallery-sec .block .portfolio-contant ul li a p {
   font-size: 15px;
 }
-#portfolio-work .block .portfolio-contant ul li a span {
+#gallery-sec .block .portfolio-contant ul li a span {
   font-style: italic;
   font-size: 13px;
-  color: #655E7A;
+  color: #245d28;
 }
-#portfolio-work .block .portfolio-contant ul img {
+#gallery-sec .block .portfolio-contant ul img {
   width: 100%;
   height: auto;
 }
-#portfolio-work .block .portfolio-contant .overly {
+#gallery-sec .block .portfolio-contant .overly {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -511,7 +423,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .3s all;
   text-align: center;
 }
-#portfolio-work .block .portfolio-contant .position-center {
+#gallery-sec .block .portfolio-contant .position-center {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -523,7 +435,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -o-transition: .5s all;
   transition: .5s all;
 }
-#portfolio-work .block .mix {
+#gallery-sec .block .mix {
   display: none;
 }
 /*--
@@ -600,7 +512,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start 
 --*/
 #slider-contact {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/BC-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -615,7 +527,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  background: linear-gradient(to left, #778E75, #2A3728);
   opacity: 0.8;
 }
 #slider-contact .block {
@@ -780,21 +692,21 @@ footer p {
 footer a {
   color: #595959;
 }
-footer .footer-manu {
+footer .footer-menu {
   padding-bottom: 25px;
 }
-footer .footer-manu ul {
+footer .footer-menu ul {
   margin: 0px;
   padding: 0px;
 }
-footer .footer-manu ul li {
+footer .footer-menu ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-footer .footer-manu ul li a {
+footer .footer-menu ul li a {
   display: inline-block;
   color: #494949;
 }
-footer .footer-manu ul li a:hover {
+footer .footer-menu ul li a:hover {
   color: #000;
 }
