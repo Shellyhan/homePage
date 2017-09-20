@@ -20,35 +20,37 @@ $(document).ready(function(){
 	}
 
 	var isAnimated = false;
-		window.onscroll = function(){
-    	if(isElementInViewport($('#intro')) && !isAnimated){
+	window.onscroll = function(){
+  	if(isElementInViewport($('#intro')) && !isAnimated){
 
-			    $('.type-it').typeIt({
-				    speed: 50,
-				    deleteSpeed: 200,
-				    lifeLike: true,
-				    autoStart: false,
-				    breakLines: true
-				  })
-				  .tiType('So, what is she doing recently...')
-				  .tiSettings({speed: 900})
-				  .tiType('? ')
-				  .tiBreak()
-				  .tiSettings({speed: 50})
-				  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just finished school from SFU  ')
-				  .tiDelete(5)
-				  .tiType('Simon Fraser University')
-				  .tiBreak()
-				  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recently moved to bueatify city <u>Victoria, BC</u>')
-				  .tiBreak()
-				  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently working as a freelance developer for SCORE program.')
-				  .tiBreak()
-				  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Started volunteering in Uvic community garden.')
-				  .tiBreak()
-				  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And looking for a job...');
-				  isAnimated = true;
-    	}
-		}
+		    $('.type-it').typeIt({
+			    speed: 50,
+			    deleteSpeed: 200,
+			    lifeLike: true,
+			    autoStart: false,
+			    breakLines: true
+			  })
+			  .tiType('So, what is she doing recently...')
+			  .tiSettings({speed: 900})
+			  .tiType('? ')
+			  .tiBreak()
+			  .tiSettings({speed: 30})
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just finished school from SFU&nbsp;&nbsp;')
+			  .tiDelete(5)
+			  .tiType('Simon Fraser University.')
+			  .tiBreak()
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recently moved to a beautiful city, Victoria in BC.')
+			  .tiBreak()
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently working as a freelance developer for SCORE program in Vancouver.')
+			  .tiBreak()
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Surrey Collaborative Outreach and Research Experience)')
+			  .tiBreak()
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Volunteering in Uvic community garden weekly.')
+			  .tiBreak()
+			  .tiType('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And looking for a job...');
+			  isAnimated = true;
+  	}
+	}
 
 	//fun things part:
 	$(".fun-item").flip({
@@ -56,16 +58,6 @@ $(document).ready(function(){
 	  trigger: 'hover',
 	  reverse: true
 	});
-
-
-	// google map
-		var map;
-		function initMap() {
-		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -34.397, lng: 150.644},
-		    zoom: 8
-		  });
-		}
 
 });
 
