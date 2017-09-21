@@ -1,0 +1,25 @@
+@font-face {
+	font-family: detail-font;
+	font-weight: 100;
+	src: url('../fonts/Volkhov/Volkhov-Italic.ttf');
+}
+@font-face {
+	font-family: title-font;
+	src: url('../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf');
+}
+@font-face {
+	font-family: h4-font;
+	src: url('../fonts/Bubbler_One/BubblerOne-Regular.ttf');
+}
+@font-face {
+	font-family: heading-font;
+	src: url('../fonts/Kranky/Kranky-Regular.ttf');
+}
+@font-face {
+	font-family: photo-font;
+	src: url('../fonts/Alex_Brush/AlexBrush-Regular.ttf');
+}
+@font-face {
+	font-family: body-font;
+	src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
