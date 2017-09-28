@@ -1,4 +1,5 @@
 $(document).ready(function(){	
+	$('#location-detail').hide();
 	// google map
 		var map;
 		function initMap() {
@@ -7,4 +8,8 @@ $(document).ready(function(){
 		    zoom: 8
 		  });
 		}
+		window.onerror = function() {
+	    $('#map').hide();
+			$('#location-detail').show();
+		};
 });

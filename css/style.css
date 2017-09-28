@@ -1,10 +1,3 @@
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);*/
-
-/*@font-face { font-family: Roboto; src: url('../fonts/Roboto/Roboto-Light.ttf'); } */
-
-
 /*--
 	Common Css
 --*/
@@ -550,6 +543,22 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	contact-form Start 
 --*/
+
+/*#contact-form .pic {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+#contact-form .blur {
+    height: 100%;
+}
+#contact-form .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}*/
+
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
@@ -583,7 +592,6 @@ font header .navbar-default .navbar-nav li a:hover {
   border: none;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   font-size: 18px;
 }
 /*--
@@ -616,7 +624,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #contact-box .block h2 {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   font-weight: 300;
   color: #000;
   font-size: 28px;
