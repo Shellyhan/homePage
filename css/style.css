@@ -278,33 +278,31 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	content Start 
 --*/
+
 #fun {
-  padding: 100px 0;
-}
-#fun .block h2 {
-  color: #5C5C5C;
-}
-#fun .block p {
-  padding-top: 50px;
-  color: #7B7B7B;
-}
-#fun .fun-box li {
-  width: 25%;
-  float: left;
   text-align: center;
-  margin: 30px 0 30px;
-  color: #245d28;
+  padding: 90px 0;
 }
-#fun .fun-box li i {
+#fun .fun-item {
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+#fun .fun-item i {
   font-size: 40px;
-}
-#fun .fun-box li h4 {
   color: #245d28;
 }
-#fun .fun-box li span {
-  color: #888;
-  font-family: 'body-font', sans-serif;
+#fun .fun-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #245d28;
+}
+#fun .fun-item p {
+  color: #676767;
+  padding-top: 10px;
+  margin: 0;
   font-size: 15px;
+  line-height: 1.5;
+  font-family: 'body-font', sans-serif;
 }
 
 /*---------------------------------------------
